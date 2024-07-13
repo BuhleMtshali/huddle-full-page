@@ -6,6 +6,24 @@
   --buttons-color: hsl(322, 100%, 66%);
   --paragraph-color: hsl(208, 11%, 55%);
 }
+
+@media (max-width: 768px) {
+  header {
+    background-image: url(src/bg-hero-mobile.svg);
+  }
+  .right-img img {
+    max-width: 300px;
+    margin-top: 15px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-img img {
+    width: 150px;
+  }
+}
 body {
   margin: 0;
   user-select: none;
@@ -13,7 +31,7 @@ body {
 header {
   background-image: url(src/bg-hero-desktop.svg);
   width: 100%;
-  height: 90vh;
+  height: auto;
   background-repeat: no-repeat;
   background-color: #edfbfd;
   background-size: cover;
@@ -37,18 +55,19 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 30px 35px;
+  padding: 35px 35px;
   flex-wrap: wrap;
   align-content: center;
 }
 .mock-up-img {
-  width: 700px;
+  max-width: 650px;
   height: auto;
   object-fit: cover;
 }
 h1 {
   font-size: 3em;
   font-family: var(--heading-font);
+  margin-top: 0;
 }
 .header-text {
   color: var(--footer-bg);
