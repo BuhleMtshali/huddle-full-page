@@ -6,3 +6,66 @@
   --buttons-color: hsl(322, 100%, 66%);
   --paragraph-color: hsl(208, 11%, 55%);
 }
+body {
+  margin: 0;
+}
+header {
+  background-image: url(src/bg-hero-desktop.svg);
+  width: 100%;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-color: #edfbfd;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.try-it {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--footer-bg);
+  background-color: white;
+  box-shadow: 2px 2px 4px #afb9c1;
+  font-family: var(--paragraph-font);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 35px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.mock-up-img {
+  width: 700px;
+  height: auto;
+  object-fit: cover;
+}
+h1 {
+  font-size: 3em;
+  font-family: var(--heading-font);
+}
+.header-text {
+  color: var(--footer-bg);
+  font-size: 18px;
+  font-family: var(--paragraph-font);
+  font-weight: 500;
+}
+.pink-btn {
+  background-color: var(--buttons-color);
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 19px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.pink-btn:hover {
+  background-color: white;
+  color: var(--buttons-color);
+}
