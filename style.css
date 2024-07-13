@@ -8,21 +8,20 @@
 }
 body {
   margin: 0;
+  user-select: none;
 }
 header {
   background-image: url(src/bg-hero-desktop.svg);
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-color: #edfbfd;
   background-size: cover;
   background-blend-mode: multiply;
   background-position: center;
+  padding-bottom: 35px;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-}
+
 .try-it {
   padding: 8px 30px;
   border: none;
@@ -65,6 +64,7 @@ h1 {
   border-radius: 19px;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .pink-btn:hover {
   background-color: white;
