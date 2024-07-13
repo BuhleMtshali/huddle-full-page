@@ -1,0 +1,8 @@
+:root {
+  --heading-font: "Poppins", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
+  --footer-bg: hsl(192, 100%, 9%);
+  --header-bg: hsl(193, 100%, 96%);
+  --buttons-color: hsl(322, 100%, 66%);
+  --paragraph-color: hsl(208, 11%, 55%);
+}
